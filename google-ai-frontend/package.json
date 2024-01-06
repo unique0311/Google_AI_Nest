@@ -1,0 +1,31 @@
+{
+  "name": "google-ai-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 8090",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "bootstrap-vue": "^2.22.0",
+    "paper": "^0.12.15",
+    "register-service-worker": "^1.7.2",
+    "vue": "^2.7.10",
+    "vue-class-component": "^7.2.6",
+    "vue-easeljs": "^0.1.14",
+    "vue-json-editor": "^1.4.3",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.6.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.8",
+    "typescript": "~4.5.5",
+    "vue-template-compiler": "^2.6.14"
+  }
+}

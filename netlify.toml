@@ -1,0 +1,10 @@
+[build]
+  base = "google-ai-server/"
+  command = "npm run prestart:prod"
+  functions = "google-ai-server/dist"
+
+
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/server"
+  status = 200
